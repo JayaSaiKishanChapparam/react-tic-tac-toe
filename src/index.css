@@ -1,0 +1,45 @@
+.game {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.board {
+  display: inline-block;
+  border: 2px solid #000;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid #000;
+  transition: background-color 0.3s ease;
+  height: 50px;
+  width: 50px;
+}
+
+.cell:hover {
+  background-color: #f1f1f1;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  width: 60px;
+}
